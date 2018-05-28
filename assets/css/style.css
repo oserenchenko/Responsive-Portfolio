@@ -164,6 +164,10 @@ button {
     width: 100%;
   }
 
+  .centered {
+    width: 100%;
+  }
+
   header {
     margin-left: 30px;
   }
@@ -175,13 +179,13 @@ button {
   .main {
     width: 620px;
     height: 575px;
-    margin-left: 45px;
+    margin-left: 30px;
   }
 
   #portfolioMain {
     width: 620px;
     height: 725px;
-    margin-left: 45px;
+    margin-left: 30px;
   }
 
   .blue {
@@ -193,11 +197,56 @@ button {
   }
 
   textarea {
-    width: 605px;
+    width: 610px;
     height: 200px;
   }
 }
 
 /*media query for ipad screen */
+
+@media screen and (max-width: 768px) {
+  .mainHeader {
+    width: 100%;
+  }
+
+  .centered {
+    width: 100%;
+  }
+
+  header {
+    margin-left: 30px;
+  }
+
+  ul {
+    margin-right: 30px;
+  }
+
+  .main {
+    width: 665px;
+    height: 575px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  #portfolioMain {
+    width: 665px;
+    height: 725px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .blue {
+    margin-top: 100px;
+  }
+
+  input {
+    width: 650px;
+  }
+
+  textarea {
+    width: 655px;
+    height: 200px;
+  }
+}
 
 /* media query for phone screen */
